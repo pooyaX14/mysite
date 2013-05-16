@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Niconne|Aladin);
+body {
+    margin: 10px auto 0 auto;
+    width: 50%;
+    font-family: Aladin, cursive;
+    font-size: 1em;
+    color:  #666;
+    background: transparent url("../img/flower.jpg") fixed no-repeat bottom left;
+}
+body#resume {
+    background: transparent none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Niconne', cursive;
+    font-weight: normal;
+    color: BLACK;
+}
+h1 { font-size: 2.5em; line-height: 1.67em; }
+h2 { font-size: 2em; line-height: 1.33em; }
+h3 { font-size: 1.67em; line-height: 1em; }
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 16px;
+    width: 100%;
+    background: white;
+    font-size: 1em;
+    color: black;
+}
+/*
+================= ALL LINKS LOOK LIKE THIS
+*/
+a {
+    color: #FF7799;
+}
+
+a:hover {
+    color: #666666;
+}
+
+
+/*
+================= LINKS IN NAV LOOK LIKE THIS
+*/
+nav a {
+    font-size: larger;
+    padding: 6px 18px 6px 0; /* top right bottom left*/
+}
+
+
+.round {
+    border-radius: 600px;
+    border: 3px solid black
+}
+img.round {
+    box-shadow: 0 0 12px 2px rgba(0,0,0,0.6);
+}
